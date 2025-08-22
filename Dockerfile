@@ -16,8 +16,8 @@ RUN apt-get update && \
 
 ########################  PYTHON PACKAGES  ###################
 # Lab Dependencies
-COPY requirements.txt /tmp/requirements.txt
-RUN pip install --no-cache-dir -r /tmp/requirements.txt
+# COPY requirements.txt /tmp/requirements.txt
+# RUN pip install --no-cache-dir -r /tmp/requirements.txt
 
 # Universal Dependencies
 # cvxopt prevents warnings for various optimization routines in packages
